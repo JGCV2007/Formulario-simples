@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquerie.css">
+    <link rel="shortcut icon" href="estilos/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <div class="Box">
+          <div class="caixa">
+            
+            <div class="text">
+                <h1>Stay updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul>
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+                </ul>
+              
+                
+                <form action="form.php" method="post" autocomplete="on">
+
+                    <label for="Iemail">Email address</label>
+                    <input class="email"  type="text" name="email" id="Iemail" autocomplete="email" 
+                     placeholder="email@company.com" required >
+
+                    <input class="button" type="button" value="Subscribe to monthly newsletter">
+                </form>
+              </div>
+
+              <div class="image">
+                <img id="desktop" src="estilos/illustration-sign-up-desktop.svg" alt="desktop">
+                <img id="mobile" src="estilos/illustration-sign-up-mobile.svg" alt="mobile">
+              </div>
+              
+          </div>
+        </div>
+    </div>
+</body>
+</html>
