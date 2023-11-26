@@ -61,3 +61,8 @@ li{
     list-style-image:url(icon-list.svg);
     margin:10px 0px;
 }
+#error.message{
+    color: red;
+    font-size:12px;
+    display: none;
+}

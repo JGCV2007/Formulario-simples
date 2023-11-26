@@ -3,43 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="5; file:///C:/Users/Jean/Documents/curso%20HTML%20e%20CSS/HTML5%20e%20CSS3/Font-end/Atvidades-do-front-end/Formul%C3%A1rio/Formulario-simples/success.html">!-->
     <title>Formulário</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquerie.css">
     <link rel="shortcut icon" href="estilos/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
-    <div class="main">
-        <div class="Box">
-          <div class="caixa">
+  <div class="main">
+      <div class="Box">
+        <div class="caixa">
             
-            <div class="text">
-                <h1>Stay updated!</h1>
-                <p>Join 60,000+ product managers receiving monthly updates on:</p>
-                <ul>
-                    <li>Product discovery and building what matters</li>
-                    <li>Measuring to ensure updates are a success</li>
-                    <li>And much more!</li>
-                </ul>
+          <div class="text">
+              <h1>Stay updated!</h1>
+              <p>Join 60,000+ product managers receiving monthly updates on:</p>
+              <ul>
+                  <li>Product discovery and building what matters</li>
+                  <li>Measuring to ensure updates are a success</li>
+                  <li>And much more!</li>
+              </ul>
               
                 
-                <form action="form.php" method="post" autocomplete="on">
-
+              <form action="form.php" method="post" autocomplete="on">
+                  <p id="error.message"> </p>
+                  <p>
                     <label for="Iemail">Email address</label>
-                    <input class="email"  type="text" name="email" id="Iemail" autocomplete="email" 
-                     placeholder="email@company.com" required >
+                    <input class="email"  type="text" name="email" id="Iemail" autocomplete="email"
+                       placeholder="email@company.com" required >
+                    <input class="button" type="button" onclick="validar()" value="Subscribe to monthly newsletter">
+                  </p>
+              </form>
+            </div>
 
-                    <input class="button" type="button" value="Subscribe to monthly newsletter">
-                </form>
-              </div>
-
-              <div class="image">
-                <img id="desktop" src="estilos/illustration-sign-up-desktop.svg" alt="desktop">
-                <img id="mobile" src="estilos/illustration-sign-up-mobile.svg" alt="mobile">
-              </div>
+            <div class="image">
+              <img id="desktop" src="estilos/illustration-sign-up-desktop.svg" alt="desktop">
+              <img id="mobile" src="estilos/illustration-sign-up-mobile.svg" alt="mobile">
+            </div>
               
-          </div>
         </div>
-    </div>
+      </div>
+  </div>
+    <script src="main.js"></script>
 </body>
 </html>
