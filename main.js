@@ -6,5 +6,8 @@ function validar(){
         error.innerText = 'Valid email required';
     }
     
-    else(window.location= "file:///C:/Users/Jean/Documents/curso%20HTML%20e%20CSS/HTML5%20e%20CSS3/Font-end/Atvidades-do-front-end/Formul%C3%A1rio/Formulario-simples/success.html")
+    else(window.location= "success.html")
 }
+
+
+//file:///C:/Users/Jean/Documents/curso%20HTML%20e%20CSS/HTML5%20e%20CSS3/Font-end/Atvidades-do-front-end/Formul%C3%A1rio/Formulario-simples/success.html
